@@ -6,7 +6,7 @@ var numero = 0;
 // var chaiHttp = require('chai-http');
 var app = require('../index.js');
 
-var expect = chai.expect;
+// var expect = chai.expect;
 
 // chai.use(chaiHttp);
 
