@@ -25,7 +25,7 @@ function ramdomSecret(){
         var yourNumber = roll[0];
         secret.push(yourNumber);
     }
-    console.log(secret);
+    // console.log(secret);
     return secret;
     
 }
@@ -44,5 +44,5 @@ app.get('/api/codebreaker/:number', function (req, res) {
 });
 
 server.listen(port, function () {
-    console.log("Corriendo por el puerto " + port)
+    // console.log("Corriendo por el puerto " + port)
 });
